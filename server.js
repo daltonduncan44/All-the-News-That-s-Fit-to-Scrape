@@ -39,7 +39,9 @@ mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
 
 // Routes
-
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "./public/home.html"));
+ });
 // A GET request to scrape the echojs website
 app.get("/scrape", function(req, res) {
   // First, we grab the body of the html with request
