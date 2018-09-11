@@ -1,0 +1,59 @@
+body {
+    background-color: #3f76ee;
+}
+
+.jumbotron{
+    background-image: url("img/hero_magic-basketball.jpg");
+    background-size: 785px 240px;
+}
+
+h1 {
+color: white;
+margin: 0px 0px 0px 0px; 
+
+}
+
+h2 {
+    color: white;
+    margin: 0px 0px 0px 0px; 
+    
+    }
+#articles {
+    display: inline-block;
+    overflow: auto;
+    width: 70%;
+    height: 700px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#notes {
+    float: right;
+    width: 30%;
+    color: #333333;
+}
+
+#titleinput,
+
+#bodyinput {
+    background: white;
+}
+
+textarea,
+input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+textarea {
+    height: 200px;
+    font-size: 18px;
+}
