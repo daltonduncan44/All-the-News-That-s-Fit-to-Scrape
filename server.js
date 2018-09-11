@@ -40,7 +40,7 @@ mongoose.connect(MONGODB_URI);
 
 // Routes
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "./public/home.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
  });
 // A GET request to scrape the echojs website
 app.get("/scrape", function(req, res) {
