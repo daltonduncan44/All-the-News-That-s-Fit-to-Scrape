@@ -11,7 +11,7 @@ var request = require("request");
 // Require all models
 //var db = require("./models");
 
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 
 var Note = require("./models/Note.js");
 var Article = require("./models/Article.js");
